@@ -1,0 +1,31 @@
+package arrayslPractise;
+
+public class Multidimensionalarrays {
+
+	public static void main(String[] args) {
+		
+		String[][] cars = new String [3][3];
+		
+		cars[0][0] = "camaro";
+		cars[0][1] = "jaguar";
+		cars[0][2] = "tesla";
+		cars[1][0] = "ferrari";
+		cars[1][1] = "bmw";
+		cars[1][2] = "f-1";
+		cars[2][0] = "lambo";
+		cars[2][1] = "nissan";
+		cars[2][2] = "toyota";
+		
+		for(int i=0; i<cars.length;i++){
+			System.out.println();
+			for(int j=0;j<cars[i].length;j++) {
+				System.out.print(cars[i][j]+" ");
+			}
+		}
+		
+		
+		
+		
+	}
+	
+}
